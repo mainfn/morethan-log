@@ -1,25 +1,34 @@
+const NAME = "mainfn";
+const TITLE = "mainfn";
+const EMAIL = "";
+const DESCRIPTION = "";
+const ROLE = "";
+const BIO = "";
+
+// const AVATAR_URL = "";
+
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: NAME,
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    role: ROLE,
+    bio: BIO,
+    email: EMAIL,
+    // linkedin: "morethanmin",
+    github: "mainfn",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
+      name: NAME,
       href: "https://github.com/morethanmin/morethan-log",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: TITLE,
+    description: DESCRIPTION,
   },
 
   // CONFIG configration (required)
