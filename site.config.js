@@ -15,7 +15,7 @@ const CONFIG = {
     role: ROLE,
     bio: BIO,
     email: EMAIL,
-    // linkedin: "morethanmin",
+    linkedin: "",
     github: "mainfn",
     instagram: "",
   },
