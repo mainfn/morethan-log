@@ -9,7 +9,7 @@ const NavBar: React.FC = () => {
       <ul>
         {links.map((link) => (
           <li key={link.id}>
-            <Link href={link.to}>
+            <Link href={link.to} passHref>
               <a target="_blank" rel="noopener noreferrer">
                 {link.name}
               </a>
