@@ -6,7 +6,7 @@ import Category from "src/components/Category"
 import styled from "@emotion/styled"
 import NotionRenderer from "../components/NotionRenderer"
 import usePostQuery from "src/hooks/usePostQuery"
-import "src/routes/Feed/TagList"
+import TagList from "src/routes/Feed/TagList"
 
 type Props = {}
 
