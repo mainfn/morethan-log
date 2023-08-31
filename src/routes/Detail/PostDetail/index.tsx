@@ -30,12 +30,12 @@ const PostDetail: React.FC<Props> = () => {
         <div>
           <NotionRenderer recordMap={data.recordMap} />
         </div>
-        {data.type[0] === "Post" && (
+{/*         {data.type[0] === "Post" && (
           <>
             <Footer />
             <CommentBox data={data} />
           </>
-        )}
+        )} */}
       </article>
     </StyledWrapper>
   )
