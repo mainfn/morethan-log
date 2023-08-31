@@ -6,6 +6,7 @@ import Category from "src/components/Category"
 import styled from "@emotion/styled"
 import NotionRenderer from "../components/NotionRenderer"
 import usePostQuery from "src/hooks/usePostQuery"
+import "src/routes/Feed/TagList"
 
 type Props = {}
 
@@ -18,6 +19,7 @@ const PostDetail: React.FC<Props> = () => {
 
   return (
     <StyledWrapper>
+      <TagList />
       <article>
         {category && (
           <div css={{ marginBottom: "0.5rem" }}>
