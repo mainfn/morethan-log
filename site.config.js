@@ -4,7 +4,7 @@ const EMAIL = "";
 const DESCRIPTION = "";
 const ROLE = "";
 const BIO = "";
-const MINUTE = 60 * 1000;
+const MINUTE = 60;
 
 // const AVATAR_URL = "";
 
