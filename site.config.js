@@ -1,5 +1,5 @@
-const NAME = "mainfn";
-const TITLE = "mainfn";
+const NAME = "zxcev";
+const TITLE = "zxcev";
 const EMAIL = "";
 const DESCRIPTION = "";
 const ROLE = "";
@@ -17,13 +17,13 @@ const CONFIG = {
     bio: BIO,
     email: EMAIL,
     linkedin: "",
-    github: "mainfn",
+    github: "zxcev",
     instagram: "",
   },
   projects: [
     {
       name: NAME,
-      href: "https://github.com/mainfn",
+      href: "https://github.com/zxcev",
     },
   ],
   // blog setting (required)
